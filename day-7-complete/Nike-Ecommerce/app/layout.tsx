@@ -36,6 +36,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${poppins.className} ${inter.className} antialiased`}
+        cz-shortcut-listen="true"
       >
         <CartProvider>
         <Navbar/>
